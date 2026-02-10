@@ -9,5 +9,5 @@ endif()
 include(${PDCMAKE_FILE})
 
 add_custom_target(orchidea COMMAND echo "Installing dependencies from orchidea...")
-file(GLOB UPIC_LUA_FILES "${CMAKE_CURRENT_SOURCE_DIR}/src/*")
-pd_add_datafile(orchidea "${UPIC_LUA_FILES}")
+file(GLOB ORCHIDEA_LUA_FILES "${CMAKE_CURRENT_SOURCE_DIR}/src/*")
+pd_add_datafile(orchidea "${ORCHIDEA_LUA_FILES}")
