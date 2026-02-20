@@ -8,7 +8,7 @@
 
 
 > [!WARNING]  
-> `pd-upic` is distributed as part of the `pd-xlab` library. 
+> `pd-orchidea` is distributed as part of the [`xlab`](https://github.com/charlesneimog/pd-xlab) library. 
 
 
 ## Download and Install
